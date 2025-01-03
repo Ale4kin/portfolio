@@ -27,5 +27,11 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "homepage": "https://Ale4kin.github.io/Portfolio",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "gulp build"
+  }
 }

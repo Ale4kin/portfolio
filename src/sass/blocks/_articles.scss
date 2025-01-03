@@ -1,0 +1,21 @@
+.articles {
+  padding-top: 120px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    li {
+      list-style-type: none;
+      color: $main-color;
+    }
+  }
+}
